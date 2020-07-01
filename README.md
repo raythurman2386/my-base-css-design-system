@@ -23,7 +23,9 @@ Project uses parcel for hot reloading and to utilize a package json if I decide 
 ### Scripts
 
 `npm run build` - Builds the dist folder for the project
+
 `npm run dev` - will run the server with hot reloading
+
 `npm run start` - will build and run the dev server
 
 be sure to cd into the project folder and run `npm install` to start working with the design system
