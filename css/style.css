@@ -11,14 +11,14 @@
 :root {
 	/* Define colors for the theme */
 	/* Change these on a project basis if needed */
-	--black: #1b2d45;
-	--green: #00ebc7;
+	--black: #111c2b;
+	--green: #03d0b1;
 	--red: #ff5470;
 	--yellow: #fde24f;
 	--dark-blue: #00214d;
 	--grey: #bfbfbf;
 	--dark-grey: #222;
-	--light-grey: #f2f4f6;
+	--light-grey: #dcddde;
 	--white: #fff;
 
 	/* Define colors intentions */
@@ -204,6 +204,8 @@ textarea {
 
 select {
 	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 	border: var(--line);
 	padding: 4px 5px;
 	border-radius: var(--border-radius);
@@ -218,6 +220,7 @@ button {
 	--button-color: var(--primary);
 	cursor: pointer;
 	padding: 5px 25px;
+	margin-top: 5px;
 	appearance: none;
 	color: var(--button-text-color);
 	background-color: var(--button-color);
@@ -227,7 +230,7 @@ button {
 }
 
 button:hover {
-	box-shadow: var(--level-2);
+	box-shadow: var(--level-3);
 	transition: 0.3s ease-in-out box-shadow;
 }
 
@@ -325,6 +328,7 @@ button.small {
 	--card-bg: var(--dark-grey);
 	--button-text-color: var(--black);
 	--footer-background: var(--dark-grey);
+	--line-color: var(--white);
 }
 
 /* Sets dark theme based on browser dark theme */
